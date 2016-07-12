@@ -21,7 +21,8 @@ p {
   margin-bottom: 1rem;
 }
 
-a {
+a,
+.openings__link__permalink {
   color: #3197EF;
   text-decoration: none;
   border-bottom: 0.1rem solid;
@@ -29,6 +30,7 @@ a {
 
 ul {
   padding-left: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 body {
@@ -47,7 +49,24 @@ body {
 .logo {
   width: 7rem;
   display: block;
-  margin: 4rem 0 3rem;
+  margin: 4rem 0 2rem;
+}
+
+.openings {
+  overflow: hidden;
+}
+
+.openings__link {
+  display: block;
+  color: #4272A0;
+  border: none;
+  padding: 0.5rem 0 2rem;
+  margin-top: 1rem;
+  border-bottom: 0.15rem solid #EFEFF2;
+}
+
+.openings__link__subline {
+  margin-bottom: 0.5rem;
 }
 
 .wrapper {
@@ -55,10 +74,12 @@ body {
   margin: auto;
 }
 
-.job__title {
+.job__title,
+.openings__header {
   font-size: 1.75rem;
   color: #3197EF;
   margin-bottom: 0.5rem;
+  padding-top: 3rem;
   clear: right;
 }
 
@@ -70,7 +91,8 @@ body {
   margin-bottom: 2rem;
 }
 
-.job__section__heading {
+.job__section__heading,
+.openings__link__title {
   color: #3197EF;
   font-weight: 500;
   margin-bottom: 0.5rem;
