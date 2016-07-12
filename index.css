@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  src: url("/fonts/SourceSansPro-Regular.woff");
+}
+
+@font-face {
+  font-family: "Source Sans Pro";
+  font-weight: 500;
+  src: url("/fonts/SourceSansPro-Semibold.woff");
+}
+
+h1, h2, h3, ul, li, p {
+  font-weight: normal;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #3197EF;
+  text-decoration: none;
+  border-bottom: 0.1rem solid;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, sans-serif;
+  color: #4272A0;
+  font-weight: 400;
+  font-size: 1.3rem;
+  line-height: 1.4;
+  padding: 0 1rem 4rem;
+  -webkit-font-smoothing: antialiased;
+  border-top: 0.2rem solid #3197EF;
+}
+
+.logo {
+  width: 7rem;
+  display: block;
+  margin: 4rem 0 3rem;
+}
+
+.wrapper {
+  max-width: 48rem;
+  margin: auto;
+}
+
+.job__title {
+  font-size: 1.75rem;
+  color: #3197EF;
+  margin-bottom: 0.5rem;
+  clear: right;
+}
+
+.job__subline {
+  margin-bottom: 2rem;
+}
+
+.job__section {
+  margin-bottom: 2rem;
+}
+
+.job__section__heading {
+  color: #3197EF;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.job__section__content {
+}
