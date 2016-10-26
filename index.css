@@ -103,7 +103,7 @@ h2.fancy {
   transform: rotateZ(-2deg);
   display: block;
   margin: 15px auto;
-  width: 300px;
+  width: 280px;
   text-align: center;
   -webkit-box-shadow: 1px 2px 17px -3px rgba(0,0,0,0.47);
   -moz-box-shadow: 1px 2px 17px -3px rgba(0,0,0,0.47);
@@ -134,8 +134,10 @@ hr {
 }
 
 .images img {
-  width: 360px;
-  height: 270px;
+  max-width: 360px;
+  max-height: 270px;
+  width: 48%;
+  height: 48%;
   padding-bottom: 20px;
 }
 
