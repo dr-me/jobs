@@ -41,7 +41,6 @@ body {
   font-weight: 400;
   font-size: 1.3rem;
   line-height: 1.4;
-  padding: 0 1rem 4rem;
   -webkit-font-smoothing: antialiased;
   border-top: 0.2rem solid #3197EF;
 }
@@ -52,7 +51,36 @@ body {
   margin: 4rem 0 2rem;
 }
 
+.header {
+  background: #3197EF;
+  background: -moz-linear-gradient(left, #3197ef 0%, #0082ed 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #3197ef 0%,#0082ed 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #3197ef 0%,#0082ed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  color: #fff;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header a {
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 3rem;
+}
+
+.header small {
+  font-size: 1rem;
+}
+
+.header img {
+  display: block;
+  width: 10rem;
+  margin: 0 auto;
+}
+
 .openings {
+  clear: both;
   overflow: hidden;
 }
 
@@ -69,9 +97,52 @@ body {
   margin-bottom: 0.5rem;
 }
 
+h2.fancy {
+  background: white;
+  padding: 20px 40px;
+  transform: rotateZ(-2deg);
+  display: block;
+  margin: 15px auto;
+  width: 300px;
+  text-align: center;
+  -webkit-box-shadow: 1px 2px 17px -3px rgba(0,0,0,0.47);
+  -moz-box-shadow: 1px 2px 17px -3px rgba(0,0,0,0.47);
+  box-shadow: 1px 2px 17px -3px rgba(0,0,0,0.47);
+  font-size: 1.75rem;
+  color: #3197EF;
+  margin-bottom: 3rem;
+}
+
+.clear {
+  clear: both;
+}
+
+.right {
+  float: right;
+}
+
+hr {
+  clear: both;
+  border: none;
+}
+
+.images {
+  position: relative;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.images img {
+  width: 360px;
+  height: 270px;
+  padding-bottom: 20px;
+}
+
 .wrapper {
   max-width: 48rem;
   margin: auto;
+  padding: 0 1rem 4rem;
 }
 
 .job__title,
@@ -99,4 +170,28 @@ body {
 }
 
 .job__section__content {
+}
+
+.footer {
+  position: relative;
+  height: 300px;
+  color: #fff;
+  font-weight: bold;
+  background: url(images/team.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.footer h3 {
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.footer .box {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  padding: 30px;
+  top: 50%;
+  transform: translateY(-50%);
 }
