@@ -97,6 +97,10 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.hidden {
+  display: none;
+}
+
 h2.fancy {
   background: white;
   padding: 20px 40px;
